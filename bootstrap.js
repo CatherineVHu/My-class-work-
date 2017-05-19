@@ -56,7 +56,7 @@ const app = new Vue({
 				'This Post: Crazy Fredrick',
 				'https://google.com',
 				'Bob Author',
-				'https://unsplash.it/200',
+				'https://s-media-cache-ak0.pinimg.com/736x/27/7d/71/277d71ca83d0a381cfff9946dbe8894c.jpg',
 				'Crazy Fredrick bought many very exquisite opal jewels.'
 				),
 
@@ -64,7 +64,7 @@ const app = new Vue({
 				'Another Post: promptly judged',
 				'https://vuejs.org',
 				'Jane Author',
-				'https://unsplash.it/200',
+				'https://static.pexels.com/photos/50632/pexels-photo-50632.jpeg',
 				'We promptly judged antique ivory buckles for the next prize.'
 				),
 
