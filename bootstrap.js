@@ -37,19 +37,19 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'First Post! Yay!', 		// this is the TITLE place in the class
-				'https://google.com',	// this is the LINK place in the class
-				'An Author',			// this is the AUTHOR place in the class
-				'travel 1.jpg',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'California Road Trip', 		// this is the TITLE place in the class
+				'http://www.heleninwonderlust.co.uk/2014/03/ultimate-california-road-trip-itinerary-las-vegas/',	// this is the LINK place in the class
+				'Helen',			// this is the AUTHOR place in the class
+				'Unknown.jpeg',	// this is the IMAGE place in the class
+				'CALIFORNIA ROAD TRIP ITINERARY: SAN DIEGO, LA & THE PACIFIC COAST HIGHWAY' // this is the BODY place in the class
 				),
 
 			new Post(
-				'Second Post: Lorem',
-				'https://vuejs.org',
-				'Sammie Author',
-				'spinning-dj-murdok-photos.jpg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
+				'Africa Safari',
+				'http://www.heleninwonderlust.co.uk/2014/08/tips-for-women-travelling-alone-in-africa/',
+				'Helen',
+				'images.jpeg', // this is a local image in the same folder as the js script
+				'What makes a desert beautiful is that somewhere it hides a well...'
 				),
 
 			new Post(
