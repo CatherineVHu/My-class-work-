@@ -37,11 +37,11 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'California Road Trip', 		// this is the TITLE place in the class
+				'California', 		// this is the TITLE place in the class
 				'http://www.heleninwonderlust.co.uk/2014/03/ultimate-california-road-trip-itinerary-las-vegas/',	// this is the LINK place in the class
 				'Helen',			// this is the AUTHOR place in the class
 				'Unknown.jpeg',	// this is the IMAGE place in the class
-				'CALIFORNIA ROAD TRIP ITINERARY: SAN DIEGO, LA & THE PACIFIC COAST HIGHWAY' // this is the BODY place in the class
+				'' // this is the BODY place in the class
 				),
 
 			new Post(
@@ -53,27 +53,27 @@ const app = new Vue({
 				),
 
 			new Post(
-				'This Post: Crazy Fredrick',
-				'https://google.com',
-				'Bob Author',
-				'https://s-media-cache-ak0.pinimg.com/736x/27/7d/71/277d71ca83d0a381cfff9946dbe8894c.jpg',
-				'Crazy Fredrick bought many very exquisite opal jewels.'
+				'Paris',
+				'http://thetravelhack.com/france/travel-journal-ooh-la-la-falling-love-paris/',
+				'THETRAVELHACK',
+				'1.jpg',
+				'Paris is always a good idea...'
 				),
 
 			new Post(
-				'Another Post: promptly judged',
-				'https://vuejs.org',
-				'Jane Author',
-				'https://static.pexels.com/photos/50632/pexels-photo-50632.jpeg',
-				'We promptly judged antique ivory buckles for the next prize.'
+				'Greece',
+				'http://www.nomadicmatt.com/travel-guides/greece-travel-tips/',
+				'Nomadic Matt',
+				'2.jpeg',
+				'Collect moments not things...'
 				),
 
 			new Post(
-				'Last Post: Jaded zombies',
-				'https://google.com',
-				'Anptoght Author',
-				'#',
-				'Jaded zombies acted quaintly but kept driving their oxen forward.'
+				'Tokyo',
+				'http://www.nomadicmatt.com/travel-guides/japan-travel-tips/tokyo/',
+				'Nomadic Matt',
+				'3.jpg',
+				''
 				)
 		]
 	},
